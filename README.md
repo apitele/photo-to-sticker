@@ -1,23 +1,17 @@
 # sticker bot
-sticker bot help you to convert your photo to sticker or inverse
-base on lua - use otouto function - TELEGRAM BOT
+مرحبا بك في بوت التوحيل انا احول لك الملصق الى صوره والعكس (channel)[t.me/programmer_iraq]
+ - TELEGRAM BOT
+#الاوامر
+ **ملصق الى صوره** 
+ارسل ملصقا.       
 
-# commands & action 
+ **صوره الى ملصق**
 
- **sticker to photo**
-
-`send a sticker , will convert to photo`
-
- **photo to sticker**
-
-`send a photo , will convert to sticker`
-
+ارسل صوره
  **/start** & **/help** 
  
- `show the help message`
-
-
-# Installation
+ `اظهار النساعده
+# التنصيب
 
 ```bash
 sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev make unzip git redis-server g++ libjansson-dev libpython-dev expat libexpat1-dev
@@ -27,20 +21,19 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 `sudo apt-get install lua-sec`
 
 ```
-git clone https://github.com/iamjavid/sticker_bot.git
-cd sticker_bot
-
+git clone https://github.com/apitele/photo-to-sticker.git
+cd photo-to-sticker
 ```
 
-enter bot token in the bot.lua
+ضع توكنك في  bot.lua
 
 ```lua
 
-local bot_api_key = "" -- token
+local bot_api_key = "التوكن هنا" -- token
 local BASE_URL = "https://api.telegram.org/bot"..bot_api_key
 ```
 
-enter your telegram id as admin
+ ضع الايدي الخاص بك
 ```lua
 local var = false
   local admins = {0}-- put your id here
@@ -48,11 +41,9 @@ local var = false
 
 ```
 
-Save bot.lua
+احفظ bot.lua
 
-Start the bot
+شغل   البوت من خلال 👇
 
-`lua bot.lua`
-
-
-Developer : [JAVID](https://telegram.me/jwdmo)
+`lua bot.lua`ا
+Developer : [programmer of iraq](https://telegram.me/programmer_iraq)
