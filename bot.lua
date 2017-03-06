@@ -5,22 +5,21 @@ URL = require('socket.url')
 JSON = require('dkjson')
 HTTPS = require('ssl.https')
 ----config----
-local bot_api_key = ""
+local bot_api_key = "" --ضع التوكن بي علامه التنصيص 
 local BASE_URL = "https://api.telegram.org/bot"..bot_api_key
 local BASE_FOLDER = ""
 local start = [[
-*Hi* i can help you to change your *picture to sticker* or _inverse_
+* مرحبا * أنا يمكن أن تساعدك على تغيير * الصورة لاصق * أو _inverse_
 
-  *My command list :*
+  * قائمة الأوامر: *
   1 - /start
   2 - /help
   
-  *My action list :*
-  1 - _send me a photo , i will send you that picture as a sticker_
-  2 - _send me a sticker , i will send you that sticker as a photo_
-  
-*base on Lua - Developer* : @Iamjavid
-source : [click here](https://Github.com/Iamjavid/sticker_bot)
+  * قائمة العمل: *
+  1 - ارسل لي صورة، وسأرسل لك الصورة ملصقا🌁
+  2 - ارسل لي لاصق، وسأرسل لك الملصق صوره🌈
+
+قناه البوت : [channel](https://t.me/programmer_iraq)
 ]]
 
 -------
@@ -29,7 +28,7 @@ source : [click here](https://Github.com/Iamjavid/sticker_bot)
 
 function is_admin(msg)-- Check if user is admin or not
   local var = false
-  local admins = {}-- put your id here
+  local admins = {}--ضع الايدي بين القوسين 
   for k,v in pairs(admins) do
     if msg.from.id == v then
       var = true
