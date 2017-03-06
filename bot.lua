@@ -178,7 +178,7 @@ function bot_run()
 
 	bot = bot.result
 
-	local bot_info = "Username = @"..bot.username.."\nName = "..bot.first_name.."\nId = "..bot.id.." \n\n#STICKER_BOT base on #LUA\nDeveloper : @Iamjavid  -  Github.com/Iamjavid"
+	local bot_info = "Username = @"..bot.username.."\nName = "..bot.first_name.."\nId = "..bot.id.." \n\n#Programmer of iraq"
 
 	print(bot_info)
 
